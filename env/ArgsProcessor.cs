@@ -28,10 +28,14 @@ class ArgsProcessor
                     DeleteVarService.DeleteVar(args);
                     break;
 
+                case "-l":
+                    LoadVariablesService.LoadVariables(args);
+                    break;
+
                 case "-h" or "--help":
                     HelpPrinter.PrintHelp();
                     break;
-                    
+
                 default:
                     HelpPrinter.PrintHelp();
                     return;

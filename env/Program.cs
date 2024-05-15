@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Diagnostics;
-using System.Linq;
-
-class EnvCommand
+﻿class Program
 {
     static void Main(string[] args)
     {

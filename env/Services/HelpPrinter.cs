@@ -9,6 +9,7 @@
             Console.WriteLine("  -i, --ignore-environment  start with an empty environment");
             Console.WriteLine("  -a [NAME=VALUE] add new env vars");
             Console.WriteLine("  -d [NAME] delete specified env vars");
+            Console.WriteLine("  -l [PATH] load variables from json file");
             Console.WriteLine("  -h, --help print this message");
         }
     }
